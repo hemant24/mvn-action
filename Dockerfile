@@ -7,7 +7,7 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 # Set JAVA_HOME environment variable
-ENV JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64
+ENV JAVA_HOME=/usr/local/openjdk-21
 ENV PATH=$JAVA_HOME/bin:$PATH
 
 # Command to list contents of the working directory
