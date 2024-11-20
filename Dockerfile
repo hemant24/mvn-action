@@ -7,4 +7,4 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 # Command to list contents of the working directory
-CMD ["sh", "-c", "echo 'Current working directory contents:' && ls -la"]
+CMD ["mvn", "clean", "install"]
