@@ -11,4 +11,5 @@ ENV JAVA_HOME=/usr/local/openjdk-21
 ENV PATH=$JAVA_HOME/bin:$PATH
 
 # Command to list contents of the working directory
-CMD ["mvn", "clean", "install"]
+# CMD ["mvn", "clean", "install"]
+CMD ["mvn", "-v"]
