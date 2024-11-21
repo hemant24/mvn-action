@@ -15,5 +15,5 @@ ENV PATH=$JAVA_HOME/bin:$PATH
 #CMD ["mvn", "-v"]
 #CMD ["mvn", "help:evaluate", "-Dexpression=settings.localRepository", "-q", "-DforceStdout"]
 # CMD ["/bin/sh", "-c", "echo $HOME"]
-# CMD ["/bin/sh", "-c", "mvn -Dmaven.repo.local=/github/home/.m2/repository clean install"]
-CMD ["/bin/sh","-c", "ls -ltr /github/home/"]
+CMD ["/bin/sh", "-c", "mvn -Dmaven.repo.local=/github/home/.m2/repository clean install"]
+#CMD ["/bin/sh","-c", "ls -ltr /github/home/"]
