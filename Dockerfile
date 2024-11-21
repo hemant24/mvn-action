@@ -11,9 +11,9 @@ ENV JAVA_HOME=/usr/local/openjdk-21
 ENV PATH=$JAVA_HOME/bin:$PATH
 
 # Command to list contents of the working directory
-# CMD ["mvn", "clean", "install"]
+ CMD ["mvn", "clean", "install"]
 #CMD ["mvn", "-v"]
 #CMD ["mvn", "help:evaluate", "-Dexpression=settings.localRepository", "-q", "-DforceStdout"]
 # CMD ["/bin/sh", "-c", "echo $HOME"]
-CMD ["/bin/sh", "-c", "mvn -Dmaven.repo.local=/github/home/.m2/repository clean install"]
+# CMD ["/bin/sh", "-c", "mvn -Dmaven.repo.local=/github/home/.m2/repository clean install"]
 #CMD ["/bin/sh","-c", "ls -ltr /github/home/"]
